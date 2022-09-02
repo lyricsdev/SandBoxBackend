@@ -1,0 +1,16 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.7",
+    "ws": "^8.8.1"
+  }
+}
