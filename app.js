@@ -9,7 +9,6 @@ wss.on('connection', function(ws) {
   console.log("connected")
   ws.on('message', function(data, flags) {
     commandHandler(ws,data.toString());
-
     });
     ws.on('close', function() {
         ws.send('good bye!');
@@ -20,5 +19,5 @@ wss.on('connection', function(ws) {
     });
 });
 server.listen(6969, () => {
-  console.log('listening on port 8126');
+  console.log('listening on port 6969');
 });
